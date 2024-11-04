@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Jogo da Forca Online</title>
+    <meta name="title" content="Jogo da Forca Online" />
+    <meta name="description" content="Jogo da forca, online criado para você se divertir e passar o tempo melhorando o raciocínio" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/marcoscti/forca/main/img/capa.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="title">Jogo da Forca</h1>
+        <div class="tema"></div>
+        <section>
+            <div class="man">
+            </div>
+            <div class="palavra">
+                <div class="erros"></div>
+                <div class="letras"></div>
+                <div class="alfabeto">
+                    <button class="btn" id="A">A</button>
+                    <button class="btn" id="B">B</button>
+                    <button class="btn" id="C">C</button>
+                    <button class="btn" id="D">D</button>
+                    <button class="btn" id="E">E</button>
+                    <button class="btn" id="F">F</button>
+                    <button class="btn" id="G">G</button>
+                    <button class="btn" id="H">H</button>
+                    <button class="btn" id="I">I</button>
+                    <button class="btn" id="J">J</button>
+                    <button class="btn" id="K">K</button>
+                    <button class="btn" id="L">L</button>
+                    <button class="btn" id="M">M</button>
+                    <button class="btn" id="N">N</button>
+                    <button class="btn" id="O">O</button>
+                    <button class="btn" id="P">P</button>
+                    <button class="btn" id="Q">Q</button>
+                    <button class="btn" id="R">R</button>
+                    <button class="btn" id="S">S</button>
+                    <button class="btn" id="T">T</button>
+                    <button class="btn" id="U">U</button>
+                    <button class="btn" id="V">V</button>
+                    <button class="btn" id="W">W</button>
+                    <button class="btn" id="X">X</button>
+                    <button class="btn" id="Y">Y</button>
+                    <button class="btn" id="Z">Z</button>
+                </div>
+                <div class="pontuacao"></div>
+            </div>
+        </section>
+        <button onclick="newGame()" id="btn-new" title="Jogar novamente"><span></span></button>
+    </main>
+    <audio src="sounds/success.mp3" id="soundSuccess"></audio>
+    <audio src="sounds/danger.mp3" id="soundError"></audio>
+    <audio src="sounds/game-over.mp3" id="soundOver"></audio>
+    <audio src="sounds/go.mp3" id="soundPlay"></audio>
+    <script src="js/options.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
